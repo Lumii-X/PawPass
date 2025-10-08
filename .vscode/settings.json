@@ -1,0 +1,5 @@
+{
+	"editor.defaultFormatter": "ms-vscode.cpptools",
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true
+}
