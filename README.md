@@ -1,4 +1,4 @@
-```markdown
+markdown
 <!-- Banner -->
 ![PawPass Banner](assets/banner.png)
 
@@ -122,6 +122,3 @@ The goal: **stable embedded logic that feels like engineered software**, not hob
 <!-- Image placeholders -->
 ![Prototype](assets/prototype.jpg)
 ![Bluetooth App UI](assets/app.png)
-```
-
----
