@@ -1,4 +1,3 @@
-markdown
 <!-- Banner -->
 ![PawPass Banner](assets/banner.png)
 
