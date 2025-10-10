@@ -1,5 +1,7 @@
 {
 	"editor.defaultFormatter": "ms-vscode.cpptools",
 	"files.autoSave": "afterDelay",
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"editor.fontSize": 16,
+	"window.zoomLevel": 8
 }

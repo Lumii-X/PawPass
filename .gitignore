@@ -1,14 +1,2 @@
 .pio/
 .vscode/
-lib_deps/
-.env
-*.elf
-*.bin
-*.hex
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Build artifacts editors
-*.swp

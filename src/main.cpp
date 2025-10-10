@@ -1,14 +1,27 @@
 #include <Arduino.h>
-#include "rfid.h"
+#include "Core/SystemCoordinator.h"
+#include "Bluetooth/BluetoothManager.h"
+#include "RFID/RFIDManager.h"
 
-static RFIDManager rfid;
+SystemCoordinator coordinator;
+BluetoothManager bt(coordinator);
+RFIDManager rfid(coordinator);
 
 void setup()
 {
-  rfid.begin(115200);
+    Serial.begin(115200);
+    coordinator.begin();
+    bt.begin();
+    rfid.begin();
+#if DEBUG_MODE
+    DBG_SL("PawPass init");
+#endif
 }
 
 void loop()
 {
-  rfid.update();
+    bt.loop();
+    rfid.loop();
+    coordinator.loop();
+    delay(10);
 }
